@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KersMC</title>
+    <link rel="icon" type="image/png" href="KersMC_logo.png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <style>
+        .header-bar {
+            background-color: #ff0707; /* Aangepaste rode kleur */
+            color: white;
+            padding: 30px 10%;
+            text-align: center;
+        }
+        .header-bar h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .buttons-container {
+            margin-top: 10px;
+        }
+        .header-bar .button {
+            margin: 5px;
+        }
+        .login-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .section {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+     <section class="header-bar">
+        <h1 class="title is-1"><a href="/kersmc" style="color: white; text-decoration: none;">KersMC</a></h1>
+        <button class="login-button" onclick="window.location.href='/kersmc/login'">Login</button>
+        <div class="buttons-container">
+            <a href="/kersmc/info" class="button is-light">Info & IP</a>
+            <a href="/kersmc/content" class="button is-light">Content</a>
+            <a href="/kersmc/map" class="button is-light">Map</a>
+            <a href="/kersmc/event" class="button is-light">Events & Nieuws</a>
+            <a href="/kersmc/shop" class="button is-light">Shop</a>
+            <a href="/kersmc/discord" class="button is-light">Discord</a>
+            <a href="/kersmc/team" class="button is-light">Team</a>
+        </div>
+    </section>
+
+    <section class="section">
+  <h1 class="title has-text-centered">KersMC Discord</h1>
+  <p class="subtitle has-text-centered">Mis niets van KersMC – join de community!</p>
+
+  <div class="columns is-vcentered mt-6">
+
+    <!-- Linkerkant: Voordelen (linksboven uitgelijnd) -->
+    <div class="column is-flex is-align-items-flex-start is-justify-content-flex-start">
+      <div class="box" style="width: 100%;">
+        <h2 class="title is-4">🎁 Voordelen van onze Discord</h2>
+        <ul style="list-style: none; padding-left: 0;">
+          <li>✅ <strong>Live serverstatus:</strong> Blijf real-time op de hoogte van de server.</li>
+          <li>📢 <strong>Mededelingen:</strong> Belangrijke updates en events.</li>
+          <li>🛠️ <strong>Updates:</strong> Changelogs en patch notes direct in je feed.</li>
+          <li>📦 <strong>Modpacks:</strong> Handleidingen en links.</li>
+          <li>🔔 <strong>KersMC video's:</strong> Ontvang een melding bij nieuwe content.</li>
+          <li>📊 <strong>Stemmen:</strong> Help mee beslissen over de toekomst van de server.</li>
+          <li>❓ <strong>Command-uitleg:</strong> Handige command guides.</li>
+          <li>👀 <strong>Teasers:</strong> Krijg als eerste toegang tot sneak peeks!</li>
+          <li>💬 <strong>Chat:</strong> Klets gezellig met de community.</li>
+          <li>🎟️ <strong>Tickets:</strong> Stel je vragen of meld iets aan staff via ons ticketsysteem.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Rechterkant: Discord Widget -->
+    <div class="column">
+      <div class="card" style="box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 16px;">
+        <div class="card-content">
+          <h2 class="title is-4 has-text-centered">Neem een kijkje wie er allemaal online is!</h2>
+          <div class="discord-widget-container" style="border-radius: 12px; overflow: hidden; display: flex; justify-content: center;">
+            <iframe src="https://discord.com/widget?id=1330549940107219016&theme=dark" width="500" height="500"
+              allowtransparency="true" frameborder="0"
+              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <footer class="footer">
+        <p>© 2025 KersMC. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>

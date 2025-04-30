@@ -1,0 +1,52 @@
+/* KersMC Stijlen - Dit bestand bevat alle stijlen voor de website */
+
+/* Header */
+.header-bar {
+    background-color: #A0C213;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.header-bar h1 {
+    font-size: 3rem;
+}
+.buttons-container {
+    margin-top: 10px;
+}
+.buttons-container a {
+    margin: 5px;
+}
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Algemene sectie instellingen */
+.section {
+    padding: 30px 10%;
+}
+
+/* Teamleden */
+.team-member {
+    text-align: center;
+    padding: 20px;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}

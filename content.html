@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KersMC</title>
+    <link rel="icon" type="image/png" href="KersMC_logo.png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <style>
+        .header-bar {
+            background-color: #ff0707; /* Aangepaste rode kleur */
+            color: white;
+            padding: 30px 10%;
+            text-align: center;
+        }
+        .header-bar h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .buttons-container {
+            margin-top: 10px;
+        }
+        .header-bar .button {
+            margin: 5px;
+        }
+        .login-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .section {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section class="header-bar">
+        <h1 class="title is-1"><a href="/kersmc" style="color: white; text-decoration: none;">KersMC</a></h1>
+        <button class="login-button" onclick="window.location.href='/kersmc/login'">Login</button>
+        <div class="buttons-container">
+            <a href="/kersmc/info" class="button is-light">Info & IP</a>
+            <a href="/kersmc/content" class="button is-light">Content</a>
+            <a href="/kersmc/map" class="button is-light">Map</a>
+            <a href="/kersmc/event" class="button is-light">Events & Nieuws</a>
+            <a href="/kersmc/shop" class="button is-light">Shop</a>
+            <a href="/kersmc/discord" class="button is-light">Discord</a>
+            <a href="/kersmc/team" class="button is-light">Team</a>
+        </div>
+    </section>
+
+   <section class="section">
+    <h1 class="title has-text-centered">🎬 KersMC Content</h1>
+    <p class="subtitle has-text-centered">Bekijk hier de nieuwste video’s van onze communityleden!</p>
+
+    <div class="columns is-multiline is-centered mt-6">
+
+        <!-- KersMC Video -->
+        <div class="column is-half">
+            <div class="box">
+                <h2 class="title is-4">
+                    <img src="logos/YouTube-Logo-1080x1080.png" alt="YouTube" style="height: 24px; margin-right: 8px;">
+                    KersMC
+                </h2>
+                <div class="video-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/N7BV1Jsydwo"
+                        title="KersMC video" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tieskuhh Video -->
+        <div class="column is-half">
+            <div class="box">
+                <h2 class="title is-4">
+                    <img src="logos/YouTube-Logo-1080x1080.png" alt="YouTube" style="height: 24px; margin-right: 8px;">
+                    Tieskuhh
+                </h2>
+                <div class="video-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/_gIIRnn-S3g"
+                        title="Tieskuhh video" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- MarsKoenker Video -->
+        <div class="column is-half">
+            <div class="box">
+                <h2 class="title is-4">
+                    <img src="logos/YouTube-Logo-1080x1080.png" alt="YouTube" style="height: 24px; margin-right: 8px;">
+                    MarsKoenker
+                </h2>
+                <div class="video-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/4HyJ8gHkXZA"
+                        title="MarsKoenker video" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advertentie -->
+        <div class="column is-half">
+            <div class="box">
+                <h2 class="title is-4">
+                    Jouw video hier?
+                </h2>
+                <p>
+                    Ook jouw video op de KersMC-website? 🎥<br>
+
+                    Maak een <strong>KersMC-gerelateerde video</strong> en heb minimaal <strong>500 volgers</strong>.  
+                    Open vervolgens een ticket via onze <a href="discord.html">Discord</a> om een plek te krijgen op deze pagina!
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<style>
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+
+    
+
+    <footer class="footer">
+        <p>© 2025 KersMC. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>

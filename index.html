@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KersMC</title>
+    <link rel="icon" type="image/png" href="KersMC_logo.png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <style>
+        .header-bar {
+            background-color: #ff0707; /* Aangepaste rode kleur */
+            color: white;
+            padding: 30px 10%;
+            text-align: center;
+        }
+        .header-bar h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .buttons-container {
+            margin-top: 10px;
+        }
+        .header-bar .button {
+            margin: 5px;
+        }
+        .login-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .section {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section class="header-bar">
+        <h1 class="title is-1"><a href="/kersmc" style="color: white; text-decoration: none;">KersMC</a></h1>
+        <button class="login-button" onclick="window.location.href='/kersmc/login'">Login</button>
+        <div class="buttons-container">
+            <a href="/kersmc/info" class="button is-light">Info & IP</a>
+            <a href="/kersmc/content" class="button is-light">Content</a>
+            <a href="/kersmc/map" class="button is-light">Map</a>
+            <a href="/kersmc/event" class="button is-light">Events & Nieuws</a>
+            <a href="/kersmc/shop" class="button is-light">Shop</a>
+            <a href="/kersmc/discord" class="button is-light">Discord</a>
+            <a href="/kersmc/team" class="button is-light">Team</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="columns">
+            <div class="column is-half has-text-centered">
+                <img src="logos/KersMC_logo.png" alt="KersMC Logo" style="max-width: 100%;">
+            </div>
+            <div class="column is-half">
+                <h2 class="title is-2">Welkom bij KersMC</h2>
+                <p>KersMC biedt een leuke Minecraft server die altijd voor iedereen toegankelijk is. Je kan joinen via Java en via Bedrock.</p>
+                <p>In de Discord server van KersMC kan je gezellig meepraten met de andere mensen, je kan er vragen stellen en de nieuwste updates als eerste meekrijgen, voor meer informatie <a href="./discord">klik je hier</a>.</p>
+                <p>Discord is gratis, dus maak snel een account aan.</p>
+                <p>Tot snel op KersMC!</p>
+                <p></p>
+                  <h2 class="title is-2">Over KersMC</h2>
+                <p>KersMC is begonnen aan season 2: Hardcore! Als je dood gaat kan je een uur niet spelen! Durf jij het aan?</p>
+                <p>Durf jij nog aan om mee te spelen? Dit seizoen staat pvp ook aan, maar is alleen toegestaan in speciale gevallen. Voor extra uitleg kan je natuurlijk altijd terecht bij een moderator, in de Minecraft server of in de Discord server. Stel gerust al je vragen, de moderators zullen al je vragen zo snel mogelijk beantwoorden.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 KersMC. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
